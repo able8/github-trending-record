@@ -29,6 +29,6 @@ done
 
 date +"%Y%m%d" >> log.txt
 
-git add ${fileName}
+git add ${fileName} log.txt
 git commit -m "${fileName}"
 git push
