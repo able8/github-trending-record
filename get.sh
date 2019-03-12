@@ -22,7 +22,7 @@ echo "## ${dateTime}" >> ${fileName}
 
 for languageName in '' javascript python go html shell
 do
-    echo "\n### ${languageName}" >>  ${fileName}
+    echo -e "\n### ${languageName}" >>  ${fileName}
     getGithubTrending ${languageName}
     sleep 3
 done
